@@ -11,7 +11,7 @@ local JOBS = {
     },
     craft = {
         coords = Config.CraftingCoords, markerType = 1, markerOffset = -1.0,
-        blip = { sprite = 499, colour = 1, name = 'Metalschmelze' },
+        blip = { sprite = 618, colour = 5, name = 'Metalschmelze' },
         text = { '[E] Eisen schmelzen aus 10 Metallteilen', '[E] Schmelzen stoppen' },
         animDict = 'amb@world_human_welding@male@base', animClip = 'base', rewardInterval = 3000,
         prop = { model = 'prop_weld_torch', bone = 28422, position = vec3(0, 0, 0), rotation = vec3(0, 0, 0) },
